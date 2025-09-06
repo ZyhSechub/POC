@@ -12,6 +12,19 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络
 
+# 2025-09-01
+- [深圳市锐明技术股份有限公司Crocus系统RepairRecord.do文件上传](./wpoc/深圳市锐明技术股份有限公司/深圳市锐明技术股份有限公司Crocus系统RepairRecord.do文件上传.md)
+- [新中大ERP企业管理软件 NGInterface 存在SQL注入](./wpoc/新中大ERP企业管理软件/新中大ERP企业管理软件%20NGInterface%20存在SQL注入.md)
+- [森鑫炬水务企业综合运营平台 InstanceGet 存在任意文件读取](./wpoc/森鑫炬水务企业综合运营平台/森鑫炬水务企业综合运营平台%20InstanceGet%20存在任意文件读取.md)
+- [湖南建研-检测系统 admintool 存在任意文件读取](./wpoc/湖南建研检测系统/湖南建研-检测系统%20admintool%20存在任意文件读取.md)
+- [弥特科技全流程追溯系统geticp存在SQL注入](./wpoc/弥特科技全流程追溯系统/弥特科技全流程追溯系统geticp存在SQL注入.md)
+- [上海网仕科技TranscoderMS index存在SQL注入](./wpoc/上海网仕科技/上海网仕科技TranscoderMS%20index存在SQL注入.md)
+- [致远OA存在文件上传导致RCE(CVE-2025-34040)](./wpoc/致远OA/致远OA存在文件上传导致RCE(CVE-2025-34040).md)
+- [usdtAdmin收款管理系统存在excel敏感信息泄露](./wpoc/虚拟币买卖USDT场外交易所/usdtAdmin收款管理系统存在excel敏感信息泄露.md)
+- [天锐绿盘云文档安全管理uploadFolder存在文件上传](./wpoc/天锐绿盘云文档安全管理/天锐绿盘云文档安全管理uploadFolder存在文件上传.md)
+- [山石网科HSM-monitor存在任意文件上传](./wpoc/山石网科/山石网科HSM-monitor存在任意文件上传.md)
+- [索贝融媒体restore存在SQL注入漏洞](./wpoc/成都索贝数码科技/索贝融媒体restore%20存在SQL注入漏洞.md)
+
 # 2025-06-11
 - [金和OA-C6系统接口ActionDataSet存在XXE漏洞](./wpoc/金和OA/金和OA-C6系统接口ActionDataSet存在XXE漏洞.md)
 - [灵当CRM系统接口Playforrecord接口处存在任意文件读取漏洞](.//wpoc/灵当CRM/灵当CRM系统接口Playforrecord接口处存在任意文件读取漏洞.md)
